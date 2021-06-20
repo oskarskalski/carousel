@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    justify-content: center;
+    background:black;   
+}
+img{
+    width:400px;
+}
+.slider__imgs{
+    margin-top:30px;
+    position:relative;
+    width:90vw;
+    height:30vw;
+}
+.imgs__figure{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
